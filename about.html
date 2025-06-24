@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Foysal Mahmud Purno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #FDFCFB; color: #334155; margin: 0; padding: 0; line-height: 1.6; }
+        main { padding: 2rem; max-width: 900px; margin: 0 auto; }
+        header { background-color: #F5F3F1; padding: 1.5rem 2rem; border-bottom: 1px solid #EAE8E6; display: flex; justify-content: space-between; align-items: center; }
+        header a { text-decoration: none; color: #334155; font-weight: 700; }
+        .logo { font-weight: 900; font-size: 1.25rem; }
+        nav a { margin-left: 1.5rem; font-size: 1rem; padding-bottom: 4px; }
+        nav a.active { color: #4C3575; border-bottom: 2px solid #4C3575; }
+        h1 { font-size: 2.5rem; font-weight: 900; color: #1e293b; margin-bottom: 2rem; }
+        .about-content { background-color: #F5F3F1; border: 1px solid #EAE8E6; border-radius: 1rem; padding: 2rem; }
+        .about-content p { margin: 0 0 1rem 0; }
+        .about-content h2 { font-weight: 700; color: #1e293b; margin-top: 2rem; margin-bottom: 1rem; }
+        .tag { display: inline-block; background-color: #EAE8E6; color: #4C3575; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.875rem; font-weight: 700; margin-right: 0.5rem; margin-bottom: 0.5rem; }
+        /* --- Social Link Styles --- */
+        .social-links { margin-top: 1rem; }
+        .social-link {
+            display: inline-block;
+            background-color: #EAE8E6;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 700;
+            color: #4C3575;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            transition: all 0.2s ease;
+        }
+        .social-link:hover {
+            background-color: #4C3575;
+            color: #FDFCFB;
+            transform: translateY(-2px);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            border-top: 1px solid #EAE8E6;
+            background-color: #F5F3F1;
+        }
+        footer p {
+            margin: 0.5rem 0 0 0;
+            font-size: 0.875rem;
+            color: #64748b; /* slate-500 */
+        }
+        footer .social-links a {
+            font-weight: 700;
+            text-decoration: none;
+            color: #4C3575;
+            margin: 0 1rem;
+        }
+        @media (max-width: 640px) { header { flex-direction: column; gap: 1rem; } nav a { margin: 0 0.75rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">FOYSAL M. PURNO</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Me.</h1>
+        <div class="about-content">
+            <p>I am Foysal Mahmud Purno, a dedicated Software Engineering student at Daffodil International University, originally from Netrakona, Mymensingh.</p>
+            <p>My fascination with technology began with an interest in computers and has grown into a deep-seated passion for developing software. I am driven by the challenge of solving real-world problems through code. Whether it's architecting a new application, debugging complex systems, or even building a computer from scratch, I thrive on understanding how things work and making them better.</p>
+            
+            <h2>My Interests</h2>
+            <div>
+                <span class="tag">Software</span>
+                <span class="tag">PC Building</span>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Web Development</span>
+                <span class="tag">Tech Hardware</span>
+            </div>
+
+    </main>
+<footer>
+        <div class="social-links">
+            <a href="https://github.com/GitPurno" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/md-foysal-mahmud-purno-642532279/" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/foysal.mahmud.purno" target="_blank">Facebook</a>
+        </div>
+        <p>&copy; 2025 Foysal Mahmud Purno. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

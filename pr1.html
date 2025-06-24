@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Description - Foysal Mahmud Purno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #FDFCFB; color: #334155; margin: 0; padding: 0; line-height: 1.6; }
+        main { padding: 2rem; max-width: 900px; margin: 0 auto; }
+        header { background-color: #F5F3F1; padding: 1.5rem 2rem; border-bottom: 1px solid #EAE8E6; display: flex; justify-content: space-between; align-items: center; }
+        header a { text-decoration: none; color: #334155; font-weight: 700; }
+        .logo { font-weight: 900; font-size: 1.25rem; }
+        nav a { margin-left: 1.5rem; font-size: 1rem; padding-bottom: 4px; }
+        nav a.active { color: #4C3575; border-bottom: 2px solid #4C3575; }
+        h1 { font-size: 2.5rem; font-weight: 900; color: #1e293b; margin-bottom: 0.5rem; }
+        h2 { font-size: 1.5rem; font-weight: 700; color: #1e293b; margin-top: 2rem; margin-bottom: 1rem; }
+        p { margin-bottom: 1rem; }
+        img { width: 100%; border-radius: 1rem; margin: 2rem 0; border: 1px solid #EAE8E6; }
+        .back-link { display: inline-block; margin-bottom: 2rem; font-weight: 700; text-decoration: none; color: #4C3575; }
+       footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            border-top: 1px solid #EAE8E6;
+            background-color: #F5F3F1;
+        }
+        footer p {
+            margin: 0.5rem 0 0 0;
+            font-size: 0.875rem;
+            color: #64748b; /* slate-500 */
+        }
+        footer .social-links a {
+            font-weight: 700;
+            text-decoration: none;
+            color: #4C3575;
+            margin: 0 1rem;
+        }
+       
+        @media (max-width: 640px) { header { flex-direction: column; gap: 1rem; } nav a { margin: 0 0.75rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">FOYSAL M. PURNO</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <a href="projects.html" class="back-link">&larr; Back to Projects</a>
+        <h1>Green EV Charging Station</h1>
+        <p>A concise, one-sentence summary of what this project accomplishes.</p>
+        
+        <img src="img\pr1c.jpg" alt="Project Showcase Image">
+
+        <h2>About This Project</h2>
+        <p>The Green EV Charging Station is a sustainable and intelligent electric vehicle (EV) charging system designed using Arduino Uno. It primarily utilizes solar power to charge electric vehicles, promoting renewable energy usage and reducing dependency on conventional power sources. In cases where solar energy is insufficient or unavailable (such as during cloudy weather or nighttime), the system automatically switches to a battery backup to ensure uninterrupted charging.
+<br><br>
+To enhance security and personalization, the system integrates NFC (Near Field Communication) authentication, allowing only authorized users to initiate the charging process. Once authenticated, the system begins charging and actively monitors and records key metrics such as charging time and current consumed. This data can be accessed through an IoT-enabled interface, allowing users to view real-time information on a smartphone or connected display.
+<br><br>
+Built with C++ on the Arduino platform, the system employs a modular and object-oriented approach for handling hardware components like the solar panel, battery management system, NFC reader, and sensors. This project not only supports eco-friendly transportation but also demonstrates the integration of automation, security, and real-time monitoring in modern renewable energy systems.</p>
+        
+        <h2>Technology Used</h2>
+        <p>Technologies used in this project - C++, Circuits, Solar, Sensors, Arduino Uno & libraries.</p>
+
+    </main>
+<footer>
+        <div class="social-links">
+            <a href="https://github.com/GitPurno" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/md-foysal-mahmud-purno-642532279/" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/foysal.mahmud.purno" target="_blank">Facebook</a>
+        </div>
+        <p>&copy; 2025 Foysal Mahmud Purno. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
